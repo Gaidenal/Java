@@ -7,6 +7,6 @@ public class Task2 {
         else {System.out.println("Какая-то неведома зверушка");}
     }
     public static void main (String[] args){
-        checkNumber(0);
+        checkNumber(5);
     }
 }
