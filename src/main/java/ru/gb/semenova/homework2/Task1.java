@@ -5,6 +5,6 @@ public class Task1 {
       return ( (a+b) >= 10 && (a+b) <= 20);
     }
     public static void main(String[] args) {
-    System.out.println(myMethodSum(10, 20));
+    System.out.println(myMethodSum(10, 10));
     }
 }
