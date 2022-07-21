@@ -64,7 +64,7 @@ public class Task1 {
         printBoard(board, moves);
         int row, line;
         while (true){
-            System.out.print("Ваш ход (столбец, строка, Например 1А): ");
+            System.out.print("Ваш ход (столбец, строка, Например А1): ");
             final String move = scanner.nextLine();
             row = move.charAt(0) - 'A';
             line = move.charAt(1) - '0';
@@ -118,9 +118,9 @@ public class Task1 {
     }
 
     public static void printBoard(int[][] board, int[][] moves) {
-        System.out.println("  ");
+        System.out.print("  ");
         for (char i = 'A'; i < 'A' + WIDTH; i++){
-            System.out.print("  " + i);
+            System.out.print(" " + i);
         }
         System.out.println();
         for (int i = 0; i < HEIGHT; i++){
